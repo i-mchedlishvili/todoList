@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+}
+
+.to-do-list-container {
+    width: 405px;
+    margin: 200px auto 0;
+    font-size: 22px;
+}
+
+.to-do-list-container > input {
+    outline: none;
+    width: 400px;
+    height: 45px;
+    font-size: 22px;
+    border: none;
+    border-bottom: 2px solid;
+}
+
+.todo-list {
+    padding: 0;
+}
+
+.todo-item {
+   list-style: none;
+   margin-top: 13px;
+}
+
+ .todo-item-icon {
+  float: right;
+  margin-left: 12px;
+  cursor: pointer;
+}
+
+.todo-item-text {
+    display: inline-block;
+    max-width: 80%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
